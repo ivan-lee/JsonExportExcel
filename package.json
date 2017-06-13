@@ -1,0 +1,19 @@
+{
+  "name": "JsonExportExcel",
+  "version": "0.1.0",
+  "description": "json导出excel",
+  "main": "dist/JsonExportExcel.min.js",
+  "author": "cuikangjie <cuikangjie_90h@126.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "xlsx":"^0.8.2",
+    
+    "gulp": "^3.9.0",
+    "gulp-uglify":"^2.0.1",
+    "gulp-concat":"^2.6.1",
+    "gulp-rename":"^1.2.2"
+  },
+  "scripts": {
+    "build":"gulp build"
+  }
+}
